@@ -1,0 +1,29 @@
+.profile__title {
+	margin-top: 0;
+	text-align: center;
+}
+
+.profile__card {
+	border: solid 5px red;
+
+	border-radius: 20px;
+
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile__name,
+.profile__tag,
+.profile__location {
+	margin-top: 0;
+	text-align: center;
+}
+
+.profile__avatar {
+	width: 150px;
+	display: block;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
