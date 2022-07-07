@@ -1,0 +1,15 @@
+.transactions__title {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.transaction__history {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td,
+th {
+	border: 1px solid #999;
+	padding: 0.5rem;
+}
