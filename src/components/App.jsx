@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
 //import './App.css';
 
-import SectionProfile from './files/Profile/Section-profile';
-import PaintingProfile from './files/Profile/Painting-profile';
-import user from './user.json';
+// import SectionProfile from './files/Profile/Section-profile';
+// import PaintingProfile from './files/Profile/Painting-profile';
+// import user from './user.json';
 
-import SectionStatistics from './files/Statistics/Section-statistics';
-import PaintingStatistics from './files/Statistics/Painting-statistics';
-import data from './data.json';
+// import SectionStatistics from './files/Statistics/Section-statistics';
+// import PaintingStatistics from './files/Statistics/Painting-statistics';
+// import data from './data.json';
 
 import SectionFriendlist from './files/FriendList/Section-friendList';
 import PaintingFriendlist from './files/FriendList/Painting-friendlist';

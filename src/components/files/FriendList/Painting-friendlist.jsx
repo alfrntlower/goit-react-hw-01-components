@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types';
-import css from './Friendlist.module.css';
+// import PropTypes from 'prop-types';
+// import css from './Friendlist.module.css';
 import PaintingFriend from './Painting-friend';
 
 
 
-function PaintingFriendlist({ friends }) {
+export default function PaintingFriendlist({ friends }) {
     console.log("PFL",friends);
 
     return (
@@ -20,5 +20,3 @@ function PaintingFriendlist({ friends }) {
     )
 }
 
-
-export default PaintingFriendlist;
