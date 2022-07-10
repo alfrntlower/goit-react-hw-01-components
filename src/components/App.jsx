@@ -5,9 +5,9 @@
 // import PaintingProfile from './files/Profile/Painting-profile';
 // import user from './user.json';
 
-// import SectionStatistics from './files/Statistics/Section-statistics';
-// import PaintingStatistics from './files/Statistics/Painting-statistics';
-// import data from './data.json';
+import SectionStatistics from './files/Statistics/Section-statistics';
+import PaintingStatistics from './files/Statistics/Painting-statistics';
+import data from './data.json';
 
 import SectionFriendlist from './files/FriendList/Section-friendList';
 import PaintingFriendlist from './files/FriendList/Painting-friendlist';
@@ -29,10 +29,11 @@ export const App = () => {
           stats = {user.stats}
         />
       </SectionProfile>
+      */}
 
       <SectionStatistics title ='Task 2 - Statistics Section'>
         <PaintingStatistics stats ={data}/>
-      </SectionStatistics> */}
+      </SectionStatistics>
 
       <SectionFriendlist title='Task 3 - Friend list'>
         <PaintingFriendlist friends = {friends}/>
