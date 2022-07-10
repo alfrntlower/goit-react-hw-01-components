@@ -1,15 +1,15 @@
 .transactions__title {
-	margin-top: 25px;
-	text-align: center;
+  margin-top: 45px;
+  text-align: center;
 }
 
 .transaction__history {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td,
 th {
-	border: 1px solid #999;
-	padding: 0.5rem;
+  border: 1px solid #999;
+  padding: 0.5rem;
 }

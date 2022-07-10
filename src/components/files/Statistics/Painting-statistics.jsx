@@ -6,11 +6,11 @@ export default function PaintingStatistics ({stats}) {
         <section class="statistics" className={css.statistics__card}>
             <h2 class="title" className={css.statistics__header}>Upload stats</h2>
 
-            <ul class="stat-list">
+            <ul class="stat-list" className={css.stat_list}>
                 <>
                     {
                         stats.map(stat => (
-                             <li class="item">
+                             <li class="item" className={css.stat_item}>
                                 <span class="label">{stat.label}</span>
                                 <span class="percentage"> { stat.percentage } %</span>
                             </li>

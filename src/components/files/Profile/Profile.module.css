@@ -1,29 +1,44 @@
 .profile__title {
-	margin-top: 0;
-	text-align: center;
+  margin-top: 0;
+  text-align: center;
 }
 
 .profile__card {
-	border: solid 5px red;
+  border-top: 3px solid red;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 
-	border-radius: 20px;
-
-	width: 250px;
-	margin-left: auto;
-	margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+  padding: 30px;
 }
 
 .profile__name,
 .profile__tag,
 .profile__location {
-	margin-top: 0;
-	text-align: center;
+  margin-top: 0;
+  text-align: center;
 }
 
 .profile__avatar {
-	width: 150px;
-	display: block;
-	margin-top: 15px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 150px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats_profile_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.stats_profile_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
