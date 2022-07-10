@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
-//import defaultImage from './default.jpg';
 
 
 export default function PaintingProfile ({
@@ -51,4 +50,3 @@ PaintingProfile.propTypes = {
   //quantity: PropTypes.number.isRequired,
 };
 
-//export default PaintingProfile;

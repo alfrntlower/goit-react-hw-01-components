@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import css from './Friendlist.module.css';
 import PaintingFriend from './Painting-friend';
 

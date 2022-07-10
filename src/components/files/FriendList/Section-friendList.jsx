@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import css from './Friendlist.module.css';
 
 
-function SectionFriendlist({title, children}) {
+export default function SectionFriendlist({title, children}) {
     return (
     <div>
       {title && <h2 className={css.friendlist__title}>{title}</h2>}
@@ -17,6 +17,3 @@ SectionFriendlist.prototype = {
     title: PropTypes.string,
     children: PropTypes.node,
 }
-
-
-export default SectionFriendlist;

@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import css from './Transactionhistory.module.css'
 
 export default function PaintingTransactions({transactions}) {
-
-    console.log(transactions);
     return (
         <table class="transaction-history" className={css.transaction__history}>
             <thead>

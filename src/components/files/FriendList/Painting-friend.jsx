@@ -8,7 +8,12 @@ export default function PaintingFriend({friends}) {
         {
             friends.map(friend => (
                 <li class="item" className={css.friend__item}>
-                    <span class="status">{ friend.isOnline}</span>
+                    {friend.isOnline === true ? (
+                        <span class="status">🟢</span>
+                    ) : (
+                        <span class="status">🔴</span>
+                    )
+                    }
                     <img class="avatar" src={friend.avatar} alt="User avatar" width="48" />
                     <p class="name"> {friend.name }</p>
                 </li>
