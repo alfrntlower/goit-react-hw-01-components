@@ -16,16 +16,17 @@ export default function PaintingTransactions({transactions}) {
             </thead>
 
             <tbody>
-                <tr>
-                    <td>{transactions[0].type}</td>
-                    <td>{transactions[0].amount}</td>
-                    <td>{transactions[0].currency}</td>
-                </tr>
-                <tr>
-                    <td>{transactions[1].type}</td>
-                    <td>{transactions[1].amount}</td>
-                    <td>{transactions[1].currency}</td>
-                </tr>
+                <>
+                    {
+                        transactions.map(transaction => (
+                            <tr>
+                                <td>{transaction.type}</td>
+                                <td>{transaction.amount}</td>
+                                <td>{transaction.currency}</td>
+                            </tr>
+                        ))
+                    }
+                </>
             </tbody>
         </table>
 
